@@ -1,54 +1,73 @@
-# Resume Builder – Java Desktop Application
+# 📝 Resume Builder – Java Desktop Application
 
-A Java-based desktop application to help students and professionals quickly create professional, well-formatted resumes. The project features a GUI-based resume form, PDF export using JasperReports, and integrated templates for easy use.
+A standalone **Java Swing-based desktop application** that allows users to input personal and professional details and generate a professionally formatted PDF resume using **JasperReports**.
 
-## 🚀 Features
+---
 
-- 📄 Generate resumes in PDF format using JasperReports
-- 🧠 Simple, form-based GUI using Java Swing
-- 📁 Custom JasperReports template for clean design
-- 💾 Option to preview, export, and save resumes
-- 📂 Includes project report and documentation
+## 📌 Features
 
-## 🛠️ Tech Stack
+- GUI-based form using Java Swing
+- Export resume as a **PDF file**
+- Multiple sections: Personal Info, Education, Experience, Skills
+- Integrated with **JasperReports**
+- Built using **NetBeans IDE**
+- No internet or browser required (desktop app)
 
-- **Java SE** (Swing for GUI)
-- **JasperReports** (PDF report generation)
-- **NetBeans IDE** (Project development)
-- **MySQL** (Optional DB integration for future use)
+---
 
-## 📂 Project Structure
+## 🚀 Tech Stack
+
+| Technology       | Purpose                       |
+|------------------|-------------------------------|
+| Java (Swing)     | GUI and application logic     |
+| JasperReports    | PDF generation                |
+| MySQL (optional) | Data storage (if implemented) |
+| NetBeans         | IDE and project structure     |
+
+---
+
+## 📂 Folder Structure
 
 CV-Resume-Builder-master/
-├── src/
-│ ├── com/resumebuilder/ → Java source files
-│ └── resources/ → JasperReports templates (.jrxml)
-├── report/ → Project documentation
-├── lib/ → JasperReports and third-party JARs
-├── Project_Report.pdf → Complete project report
-└── README.md → This file
+├── src/ # Java source code
+├── lib/ # JasperReports & third-party JARs
+├── build/classes/ # Compiled Java class files
+├── nbproject/ # NetBeans project configuration
+├── MySQL Database/ # Optional database schema
+├── Project_Report.pdf # Final project documentation
+├── How_Project_Works_Pictorial_Image.png # Visual workflow
+├── README.md # Project description
+├── build.xml # Ant build script
+├── manifest.mf # JAR metadata
+
+---
 
 
-## 🖥️ How to Run
+## 💡 How It Works
 
-1. Clone the repo or download the ZIP  
-2. Open the project in **NetBeans** (or Eclipse with minor setup)
-3. Add all required JARs from `/lib/` to your project libraries
-4. Compile and run `Main.java` or the GUI launcher
-5. Fill the form → click **Preview** → export resume as PDF
+1. Run the application via NetBeans or JAR file.
+2. Enter your details in the form (name, education, skills, etc.).
+3. Click "Generate" to export your resume as a PDF using JasperReports.
+4. Save or print your resume directly.
 
-## 📑 Documentation
+---
 
-- 📘 `Project_Report.pdf`: Step-by-step explanation with screenshots
-- 🖼️ Working diagram in image format also included
+## 🛠 Future Enhancements
 
-## 👤 Author
+- Add multiple resume templates
+- Implement resume preview feature
+- Create a web version using React + Node.js
+- Add login/signup functionality for user profiles
+
+---
+
+## 👩‍💻 Author
 
 **Anisha Sarkar**  
-Student, Computer Science & Engineering  
-JIS College of Engineering  
+[GitHub](https://github.com/AnishaSarkar-7)
 
-📧 Email: anishasarkar714@gmail.com  
-🌐 GitHub: [AnishaSarkar-7](https://github.com/AnishaSarkar-7)
+---
 
+## 📜 License
 
+This project is for educational and placement purposes only.
